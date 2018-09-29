@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB5C2D9215C0E6800B6FDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C2D8215C0E6800B6FDDC /* AppDelegate.swift */; };
+		BDB5C2DB215C0E6800B6FDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C2DA215C0E6800B6FDDC /* ViewController.swift */; };
+		BDB5C2DE215C0E6800B6FDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C2DC215C0E6800B6FDDC /* Main.storyboard */; };
+		BDB5C2E1215C0E6800B6FDDC /* Omnify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C2DF215C0E6800B6FDDC /* Omnify.xcdatamodeld */; };
+		BDB5C2E3215C0E6800B6FDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C2E2215C0E6800B6FDDC /* Assets.xcassets */; };
+		BDB5C2E6215C0E6800B6FDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C2E4215C0E6800B6FDDC /* LaunchScreen.storyboard */; };
+		BDB5C2F1215C0E6800B6FDDC /* OmnifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C2F0215C0E6800B6FDDC /* OmnifyTests.swift */; };
+		BDB5C2FC215C0E6800B6FDDC /* OmnifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C2FB215C0E6800B6FDDC /* OmnifyUITests.swift */; };
+		BDB5C30A215C157500B6FDDC /* HackerNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C309215C157500B6FDDC /* HackerNewsViewController.swift */; };
+		BDB5C30C215C15BC00B6FDDC /* HackerNewsModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C30B215C15BC00B6FDDC /* HackerNewsModelView.swift */; };
+		BDB5C348215C631000B6FDDC /* HackerNewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C347215C631000B6FDDC /* HackerNewsDetailsViewController.swift */; };
+		BDB5C34A215C74F300B6FDDC /* HackerNewsDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C349215C74F300B6FDDC /* HackerNewsDetailCellView.swift */; };
+		BDB5C34D215C9F2700B6FDDC /* commentImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C34C215C9F2700B6FDDC /* commentImage.png */; };
+		BDB5C350215D4BF600B6FDDC /* HackerNewsIntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C34F215D4BF600B6FDDC /* HackerNewsIntExtension.swift */; };
+		BDB5C355215D5F8200B6FDDC /* ButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C354215D5F8200B6FDDC /* ButtonSelected.png */; };
+		D4123612215DAEB200621741 /* HackerNewsViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4123610215DAEB200621741 /* HackerNewsViewControllerExtension.swift */; };
+		D4123613215DAEB200621741 /* ConstantString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4123611215DAEB200621741 /* ConstantString.swift */; };
+		D4123616215DB55A00621741 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = D4123615215DB55A00621741 /* Refresh.png */; };
+		D412361A215EFB5200621741 /* GetNews.png in Resources */ = {isa = PBXBuildFile; fileRef = D4123619215EFB5200621741 /* GetNews.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB5C2ED215C0E6800B6FDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB5C2CD215C0E6800B6FDDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB5C2D4215C0E6800B6FDDC;
+			remoteInfo = Omnify;
+		};
+		BDB5C2F8215C0E6800B6FDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB5C2CD215C0E6800B6FDDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB5C2D4215C0E6800B6FDDC;
+			remoteInfo = Omnify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB5C2D5215C0E6800B6FDDC /* Omnify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omnify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5C2D8215C0E6800B6FDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB5C2DA215C0E6800B6FDDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB5C2DD215C0E6800B6FDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB5C2E0215C0E6800B6FDDC /* Omnify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Omnify.xcdatamodel; sourceTree = "<group>"; };
+		BDB5C2E2215C0E6800B6FDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB5C2E5215C0E6800B6FDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB5C2E7215C0E6800B6FDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB5C2EC215C0E6800B6FDDC /* OmnifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmnifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5C2F0215C0E6800B6FDDC /* OmnifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmnifyTests.swift; sourceTree = "<group>"; };
+		BDB5C2F2215C0E6800B6FDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB5C2F7215C0E6800B6FDDC /* OmnifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmnifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5C2FB215C0E6800B6FDDC /* OmnifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmnifyUITests.swift; sourceTree = "<group>"; };
+		BDB5C2FD215C0E6800B6FDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB5C309215C157500B6FDDC /* HackerNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsViewController.swift; sourceTree = "<group>"; };
+		BDB5C30B215C15BC00B6FDDC /* HackerNewsModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsModelView.swift; sourceTree = "<group>"; };
+		BDB5C347215C631000B6FDDC /* HackerNewsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsDetailsViewController.swift; sourceTree = "<group>"; };
+		BDB5C349215C74F300B6FDDC /* HackerNewsDetailCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsDetailCellView.swift; sourceTree = "<group>"; };
+		BDB5C34C215C9F2700B6FDDC /* commentImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = commentImage.png; path = Images/commentImage.png; sourceTree = "<group>"; };
+		BDB5C34F215D4BF600B6FDDC /* HackerNewsIntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsIntExtension.swift; sourceTree = "<group>"; };
+		BDB5C354215D5F8200B6FDDC /* ButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonSelected.png; path = Images/ButtonSelected.png; sourceTree = "<group>"; };
+		D4123610215DAEB200621741 /* HackerNewsViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsViewControllerExtension.swift; sourceTree = "<group>"; };
+		D4123611215DAEB200621741 /* ConstantString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantString.swift; sourceTree = "<group>"; };
+		D4123615215DB55A00621741 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Refresh.png; path = Images/Refresh.png; sourceTree = "<group>"; };
+		D4123619215EFB5200621741 /* GetNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GetNews.png; path = Images/GetNews.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB5C2D2215C0E6800B6FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C2E9215C0E6800B6FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C2F4215C0E6800B6FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB5C2CC215C0E6800B6FDDC = {
+			isa = PBXGroup;
+			children = (
+				BDB5C2D7215C0E6800B6FDDC /* Omnify */,
+				BDB5C2EF215C0E6800B6FDDC /* OmnifyTests */,
+				BDB5C2FA215C0E6800B6FDDC /* OmnifyUITests */,
+				BDB5C2D6215C0E6800B6FDDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB5C2D6215C0E6800B6FDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C2D5215C0E6800B6FDDC /* Omnify.app */,
+				BDB5C2EC215C0E6800B6FDDC /* OmnifyTests.xctest */,
+				BDB5C2F7215C0E6800B6FDDC /* OmnifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB5C2D7215C0E6800B6FDDC /* Omnify */ = {
+			isa = PBXGroup;
+			children = (
+				D4123614215DAEC700621741 /* Supporting Files */,
+				BDB5C353215D568A00B6FDDC /* UI */,
+				BDB5C352215D567100B6FDDC /* ModelView */,
+				BDB5C351215D564D00B6FDDC /* ViewControllers */,
+				BDB5C34E215D4BDD00B6FDDC /* Extensions */,
+				BDB5C34B215C9F1900B6FDDC /* Images */,
+				BDB5C2D8215C0E6800B6FDDC /* AppDelegate.swift */,
+				BDB5C2DA215C0E6800B6FDDC /* ViewController.swift */,
+				BDB5C2E2215C0E6800B6FDDC /* Assets.xcassets */,
+				BDB5C2E7215C0E6800B6FDDC /* Info.plist */,
+				BDB5C2DF215C0E6800B6FDDC /* Omnify.xcdatamodeld */,
+			);
+			path = Omnify;
+			sourceTree = "<group>";
+		};
+		BDB5C2EF215C0E6800B6FDDC /* OmnifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C2F0215C0E6800B6FDDC /* OmnifyTests.swift */,
+				BDB5C2F2215C0E6800B6FDDC /* Info.plist */,
+			);
+			path = OmnifyTests;
+			sourceTree = "<group>";
+		};
+		BDB5C2FA215C0E6800B6FDDC /* OmnifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C2FB215C0E6800B6FDDC /* OmnifyUITests.swift */,
+				BDB5C2FD215C0E6800B6FDDC /* Info.plist */,
+			);
+			path = OmnifyUITests;
+			sourceTree = "<group>";
+		};
+		BDB5C34B215C9F1900B6FDDC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D4123619215EFB5200621741 /* GetNews.png */,
+				D4123615215DB55A00621741 /* Refresh.png */,
+				BDB5C354215D5F8200B6FDDC /* ButtonSelected.png */,
+				BDB5C34C215C9F2700B6FDDC /* commentImage.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BDB5C34E215D4BDD00B6FDDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4123610215DAEB200621741 /* HackerNewsViewControllerExtension.swift */,
+				BDB5C34F215D4BF600B6FDDC /* HackerNewsIntExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BDB5C351215D564D00B6FDDC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C309215C157500B6FDDC /* HackerNewsViewController.swift */,
+				BDB5C347215C631000B6FDDC /* HackerNewsDetailsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BDB5C352215D567100B6FDDC /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C30B215C15BC00B6FDDC /* HackerNewsModelView.swift */,
+				BDB5C349215C74F300B6FDDC /* HackerNewsDetailCellView.swift */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
+		BDB5C353215D568A00B6FDDC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C2DC215C0E6800B6FDDC /* Main.storyboard */,
+				BDB5C2E4215C0E6800B6FDDC /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D4123614215DAEC700621741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4123611215DAEB200621741 /* ConstantString.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB5C2D4215C0E6800B6FDDC /* Omnify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB5C300215C0E6800B6FDDC /* Build configuration list for PBXNativeTarget "Omnify" */;
+			buildPhases = (
+				BDB5C2D1215C0E6800B6FDDC /* Sources */,
+				BDB5C2D2215C0E6800B6FDDC /* Frameworks */,
+				BDB5C2D3215C0E6800B6FDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omnify;
+			productName = Omnify;
+			productReference = BDB5C2D5215C0E6800B6FDDC /* Omnify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB5C2EB215C0E6800B6FDDC /* OmnifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB5C303215C0E6800B6FDDC /* Build configuration list for PBXNativeTarget "OmnifyTests" */;
+			buildPhases = (
+				BDB5C2E8215C0E6800B6FDDC /* Sources */,
+				BDB5C2E9215C0E6800B6FDDC /* Frameworks */,
+				BDB5C2EA215C0E6800B6FDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB5C2EE215C0E6800B6FDDC /* PBXTargetDependency */,
+			);
+			name = OmnifyTests;
+			productName = OmnifyTests;
+			productReference = BDB5C2EC215C0E6800B6FDDC /* OmnifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB5C2F6215C0E6800B6FDDC /* OmnifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB5C306215C0E6800B6FDDC /* Build configuration list for PBXNativeTarget "OmnifyUITests" */;
+			buildPhases = (
+				BDB5C2F3215C0E6800B6FDDC /* Sources */,
+				BDB5C2F4215C0E6800B6FDDC /* Frameworks */,
+				BDB5C2F5215C0E6800B6FDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB5C2F9215C0E6800B6FDDC /* PBXTargetDependency */,
+			);
+			name = OmnifyUITests;
+			productName = OmnifyUITests;
+			productReference = BDB5C2F7215C0E6800B6FDDC /* OmnifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB5C2CD215C0E6800B6FDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Utsha Guha";
+				TargetAttributes = {
+					BDB5C2D4215C0E6800B6FDDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					BDB5C2EB215C0E6800B6FDDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDB5C2D4215C0E6800B6FDDC;
+					};
+					BDB5C2F6215C0E6800B6FDDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDB5C2D4215C0E6800B6FDDC;
+					};
+				};
+			};
+			buildConfigurationList = BDB5C2D0215C0E6800B6FDDC /* Build configuration list for PBXProject "Omnify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB5C2CC215C0E6800B6FDDC;
+			productRefGroup = BDB5C2D6215C0E6800B6FDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB5C2D4215C0E6800B6FDDC /* Omnify */,
+				BDB5C2EB215C0E6800B6FDDC /* OmnifyTests */,
+				BDB5C2F6215C0E6800B6FDDC /* OmnifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB5C2D3215C0E6800B6FDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C2E6215C0E6800B6FDDC /* LaunchScreen.storyboard in Resources */,
+				BDB5C355215D5F8200B6FDDC /* ButtonSelected.png in Resources */,
+				BDB5C34D215C9F2700B6FDDC /* commentImage.png in Resources */,
+				D4123616215DB55A00621741 /* Refresh.png in Resources */,
+				D412361A215EFB5200621741 /* GetNews.png in Resources */,
+				BDB5C2E3215C0E6800B6FDDC /* Assets.xcassets in Resources */,
+				BDB5C2DE215C0E6800B6FDDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C2EA215C0E6800B6FDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C2F5215C0E6800B6FDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB5C2D1215C0E6800B6FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C30C215C15BC00B6FDDC /* HackerNewsModelView.swift in Sources */,
+				BDB5C2DB215C0E6800B6FDDC /* ViewController.swift in Sources */,
+				BDB5C350215D4BF600B6FDDC /* HackerNewsIntExtension.swift in Sources */,
+				BDB5C2E1215C0E6800B6FDDC /* Omnify.xcdatamodeld in Sources */,
+				D4123612215DAEB200621741 /* HackerNewsViewControllerExtension.swift in Sources */,
+				BDB5C2D9215C0E6800B6FDDC /* AppDelegate.swift in Sources */,
+				D4123613215DAEB200621741 /* ConstantString.swift in Sources */,
+				BDB5C348215C631000B6FDDC /* HackerNewsDetailsViewController.swift in Sources */,
+				BDB5C34A215C74F300B6FDDC /* HackerNewsDetailCellView.swift in Sources */,
+				BDB5C30A215C157500B6FDDC /* HackerNewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C2E8215C0E6800B6FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C2F1215C0E6800B6FDDC /* OmnifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C2F3215C0E6800B6FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C2FC215C0E6800B6FDDC /* OmnifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB5C2EE215C0E6800B6FDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB5C2D4215C0E6800B6FDDC /* Omnify */;
+			targetProxy = BDB5C2ED215C0E6800B6FDDC /* PBXContainerItemProxy */;
+		};
+		BDB5C2F9215C0E6800B6FDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB5C2D4215C0E6800B6FDDC /* Omnify */;
+			targetProxy = BDB5C2F8215C0E6800B6FDDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB5C2DC215C0E6800B6FDDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB5C2DD215C0E6800B6FDDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB5C2E4215C0E6800B6FDDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB5C2E5215C0E6800B6FDDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB5C2FE215C0E6800B6FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB5C2FF215C0E6800B6FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB5C301215C0E6800B6FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = Omnify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.Omnify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		BDB5C302215C0E6800B6FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = Omnify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.Omnify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		BDB5C304215C0E6800B6FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = OmnifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.OmnifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omnify.app/Omnify";
+			};
+			name = Debug;
+		};
+		BDB5C305215C0E6800B6FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = OmnifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.OmnifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omnify.app/Omnify";
+			};
+			name = Release;
+		};
+		BDB5C307215C0E6800B6FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = OmnifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.OmnifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Omnify;
+			};
+			name = Debug;
+		};
+		BDB5C308215C0E6800B6FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = OmnifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.OmnifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Omnify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB5C2D0215C0E6800B6FDDC /* Build configuration list for PBXProject "Omnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C2FE215C0E6800B6FDDC /* Debug */,
+				BDB5C2FF215C0E6800B6FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB5C300215C0E6800B6FDDC /* Build configuration list for PBXNativeTarget "Omnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C301215C0E6800B6FDDC /* Debug */,
+				BDB5C302215C0E6800B6FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB5C303215C0E6800B6FDDC /* Build configuration list for PBXNativeTarget "OmnifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C304215C0E6800B6FDDC /* Debug */,
+				BDB5C305215C0E6800B6FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB5C306215C0E6800B6FDDC /* Build configuration list for PBXNativeTarget "OmnifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C307215C0E6800B6FDDC /* Debug */,
+				BDB5C308215C0E6800B6FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDB5C2DF215C0E6800B6FDDC /* Omnify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDB5C2E0215C0E6800B6FDDC /* Omnify.xcdatamodel */,
+			);
+			currentVersion = BDB5C2E0215C0E6800B6FDDC /* Omnify.xcdatamodel */;
+			path = Omnify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDB5C2CD215C0E6800B6FDDC /* Project object */;
+}
